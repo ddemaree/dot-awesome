@@ -1,3 +1,17 @@
+[include]
+  path = ~/.gitconfig.local
+
 [user]
-name="David Demaree"
-email="david@demaree.me"
+  name = "David Demaree"
+  email = "david@demaree.me"
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = 'vim'
+
+[push]
+  default = simple
+
+[alias]
+  st = status
+  co = checkout
